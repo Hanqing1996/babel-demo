@@ -14,3 +14,12 @@ node -r ts-node/register --inspect-brk xxx.ts
 * enerate: 把 AST 变成代码 code2
 
 即 code --(1)-> ast --(2)-> ast2 --(3)-> code2
+---
+#### 主要实验
+* let 转 var
+    * let_to_var.ts
+* es6 转 es5
+    * to_es5.ts
+* 分析项目的 js 依赖
+    * project_1
+    * deps_1.ts        
